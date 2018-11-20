@@ -1,4 +1,6 @@
 # Project Chaos
+See it in action here: https://jade-yu.github.io/Project-Chaos/
+
 Named after the Greek mythological figure.
 
 This is a simulation of the solar system. There are a few options you can tweak in the settings, like realistic scaling and speed of the rotations/revolutions, among other things.
