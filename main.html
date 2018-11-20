@@ -1,0 +1,63 @@
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/three.js"></script>
+    <script src="js/OrbitControls.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery.sidebar.min.js"></script>
+</head>
+
+<body>
+    <script src="js/variables.js"></script>
+    <script src="js/sidebar.js"></script>
+
+    <script src="js/main.js"></script>
+    <!-- <script src="js/test.js"></script> -->
+    
+    <div class="sidebar">
+        <div class="sidebarButton" id="settings">
+            <div class="sidebarIcon" id="settingsIcon"></div>
+        </div>
+        <!-- <div class="sidebarButton" id="help">
+            <div id="helpIcon"></div>
+        </div> -->
+        <div id="controls">
+            <div class="controlsItem">
+                <input type="button" id="align" value="Align Planets">
+            </div>
+            <div class="controlsItem">
+                <input type="button" id="random" value="Randomize">
+            </div>
+            <div class="controlsItem">
+                <label for="rotationSpeed">Rotation Speed</label><br>
+                <input type="number" min="0.01" step=".01" id="rotationSpeed" required>
+            </div>
+            <div class="controlsItem">
+                <label for="scale">Scale</label><br>
+                <input type="number" min="0.01" step=".01" id="scale" required>
+            </div>
+            <div class="controlsItem">
+                <input type="button" id="toggleInfoBox" value="Info Boxes ON">
+            </div>
+            <div class="controlsItem">
+                <input type="button" id="toggleOrbit" value="Orbits ON">
+            </div>
+            <div class="controlsItem">
+                <input type="button" id="realScale" value="Realistic Scaling OFF">
+            </div>
+            <div class="controlsItem">
+                <input type="button" id="resetCamera" value="Reset Camera">
+            </div>
+        </div>
+    </div>
+
+    <div id="backButton">
+        <div id="backIcon"></div>
+    </div>
+
+    <div id="name"></div>
+</body>
+
+</html>

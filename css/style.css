@@ -1,0 +1,165 @@
+body {
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.infoBox {
+    background: #FFFFFF;
+    opacity: 0.6;
+    position: fixed;
+    height: 15px;
+    width: 60px;
+    cursor: pointer;
+}
+
+.infoBoxIcon {
+    background-image: url('../img/info.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.6;
+    height: inherit;
+    width: 15px;
+    left: 0px;
+    position: absolute;
+}
+
+.infoBoxLabel {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10px;
+    height: inherit;
+    width: 45px;
+    position: absolute;
+    left: 15px;
+    padding: 2px 3px;
+    margin: 0;
+}
+
+.sidebar {
+    position: fixed;
+    opacity: 0.8;
+    width: 150px;
+    top: 0px;
+    left: -150px;
+    bottom: 0px;
+    z-index: 999;
+}
+
+.sidebarButton {
+    background: #FFFFFF;
+    opacity: 0.6;
+    position: relative;
+    height: 60px;
+    width: 50px;
+    top: 5px;
+    left: 150px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+
+.sidebarButton.open {
+    height: 80px;
+    width: 25px;
+}
+
+.sidebarButton.close {
+    height: 60px;
+    width: 50px;
+}
+
+.sidebarButton.active {
+    opacity: 1;
+}
+
+#settingsIcon {
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.6;
+    height: inherit;
+    width: inherit;
+}
+
+#settingsIcon.open {
+    background-image: url('../img/controlstext.png');
+}
+
+#settingsIcon.close {
+    background-image: url('../img/controls.png');
+}
+
+#controls {
+    background: #FFFFFF;
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    left: 5px;
+    right: 0;
+    border-radius: 5px;
+    border-top-right-radius: 0px;
+}
+
+.controlsItem {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    margin: 15px;
+    background: #FFFFFF;
+    height: auto;
+    width: inherit;
+}
+
+.controlsItem > input {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    width: 115px;
+}
+
+.controlsItem > input {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    width: 115px;
+    white-space: normal;
+}
+
+#backButton {
+    background: #FFFFFF;
+    opacity: 0.8;
+    position: fixed;
+    height: 40px;
+    width: 100px;
+    top: 15px;
+    right: 0px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    cursor: pointer;
+    z-index: 999;
+}
+
+#backIcon {
+    background-image: url('../img/back.png');
+    opacity: 0.6;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: inherit;
+    width: inherit;
+}
+
+#infoBody {
+    width: inherit;
+    height: inherit;
+}
+
+#name {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    color: #FFFFFF;
+    position: fixed;
+    margin: 0 auto;
+    top: 30px;
+    width: 100%;
+    text-align: center;
+}
